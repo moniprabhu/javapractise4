@@ -1,3 +1,4 @@
+//program to replacing character
 package com.stackroute.pe3;
 import java.util.*;
 
@@ -8,6 +9,7 @@ public class ReplacingOfCharacter {
         Scanner sc=new Scanner(System.in);
         String str=sc.nextLine();
         //replacing the letter d with f and l with t
+
         String str1=str.replace("d","f");
         str1=str1.replace("l","t");
         //displaying the output string
